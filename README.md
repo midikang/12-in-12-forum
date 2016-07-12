@@ -69,3 +69,30 @@ edit_post GET    /posts/:id/edit(.:format) posts#edit
          PUT    /posts/:id(.:format)      posts#update
          DELETE /posts/:id(.:format)      posts#destroy
     root GET    /                         posts#index
+
+    admatoMacBook-Pro:forum ad$ git add .
+    admatoMacBook-Pro:forum ad$ git commit -am ""
+    Aborting commit due to empty commit message.
+    admatoMacBook-Pro:forum ad$ git commit -am "Add post model & controller"
+    [master 148a552] Add post model & controller
+     13 files changed, 145 insertions(+), 28 deletions(-)
+     create mode 100644 README.md
+     delete mode 100644 README.rdoc
+     create mode 100644 app/assets/javascripts/posts.coffee
+     create mode 100644 app/assets/stylesheets/posts.scss
+     create mode 100644 app/controllers/posts_controller.rb
+     create mode 100644 app/helpers/posts_helper.rb
+     create mode 100644 app/models/post.rb
+     create mode 100644 db/migrate/20160712142831_create_posts.rb
+     create mode 100644 db/schema.rb
+     create mode 100644 test/controllers/posts_controller_test.rb
+     create mode 100644 test/fixtures/posts.yml
+     create mode 100644 test/models/post_test.rb
+
+https://rubygems.org/search?utf8=%E2%9C%93&query=haml
+
+haml, simple_form, devise
+
+gem 'haml', '~> 4.0', '>= 4.0.7'
+gem 'simple_form', '~> 3.2', '>= 3.2.1'
+gem 'devise', '~> 3.2'
